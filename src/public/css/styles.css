@@ -1,0 +1,35 @@
+body {
+    background: #f5f6f5;
+font-family: 'Oswald', sans-serif;
+
+    overflow: hidden;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.masthead {
+    color: rgb(255, 255, 255);
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url("/img/working_together_2-wallpaper-1280x800.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.masthead h1 {
+    font-size: 4rm;
+    margin: 0;
+    padding: 0;  
+}
+@media (min-width: 992px) {
+    .masthead h1 {
+        font-size: 5.5rem;
+    }
+}
